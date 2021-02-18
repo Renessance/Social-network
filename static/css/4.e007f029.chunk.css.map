@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Dialogs/Dialogs.module.css"],"names":[],"mappings":"AAAA,wBACI,YAAa,CACb,8BACJ,CAEA,uBACI,SACJ","file":"4.e007f029.chunk.css","sourcesContent":[".dialogs {\n    display: grid;\n    grid-template-columns: 2fr 10fr;\n}\n\n.active {\n    color: red;\n}\n\n.dialogs_item {\n\n}\n\n.massages {\n\n}\n\n.message {\n\n}"]}
