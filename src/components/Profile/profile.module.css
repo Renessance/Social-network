@@ -1,0 +1,6 @@
+.content {
+    position: relative;
+    grid-area: content;
+    padding: 10px;
+
+}

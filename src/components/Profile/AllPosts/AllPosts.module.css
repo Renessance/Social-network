@@ -1,0 +1,55 @@
+
+textarea {
+    margin-top: 15px;
+}
+.wrapper_button {
+    margin: 10px 0;
+}
+
+.wrapperPosts {
+    display: flex;
+}
+
+.postForm {
+    width: 22%;
+}
+
+.posts {
+    position: absolute;
+    top: -6px;
+    left: 300px;
+    width: 70%;
+}
+
+.posts h3 {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    background: rgb(50,42,179);
+    background: linear-gradient(90deg, rgba(50,42,179,1) 0%, rgba(76,76,209,1) 0%, rgba(5,184,221,1) 100%);
+}
+
+.textarea {
+    width: 100%;
+}
+.textarea textarea {
+    width: 98%;
+    height: 150px;
+}
+
+.submit {
+    text-decoration: none;
+    background: rgb(50,42,179);
+    background: linear-gradient(90deg, rgba(50,42,179,1) 0%, rgba(76,76,209,1) 0%, rgba(5,184,221,1) 100%);
+    border: 0;
+    padding: 15px 35px;
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.submit:disabled {
+    background: rgb(50,42,179);
+    background: linear-gradient(90deg, rgba(50,42,179,1) 0%, rgba(171,171,173,1) 0%, rgba(132,195,208,1) 100%);
+}

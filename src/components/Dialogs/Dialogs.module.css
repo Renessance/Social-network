@@ -1,0 +1,12 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.active {
+    color: red;
+}
+
+.dialogs_item {}
+
+.massages {}

@@ -1,0 +1,59 @@
+.header {
+    border-bottom: 1px solid rgb(50,42,179);
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    width: 130px;
+    height: 100px;
+}
+
+.wrapperImage {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    background: rgb(50,42,179);
+    background: linear-gradient(90deg, rgba(50,42,179,1) 0%, rgba(76,76,209,1) 0%, rgba(5,184,221,1) 100%);
+}
+
+.info p {
+    font-weight: 900;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.loginBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.loginBlock a p {
+    margin: 0;
+}
+
+.loginBlock a,
+.loginBlock button {
+    text-decoration: none;
+    background: rgb(50,42,179);
+    background: linear-gradient(90deg, rgba(50,42,179,1) 0%, rgba(76,76,209,1) 0%, rgba(5,184,221,1) 100%);
+    border: 0;
+    padding: 15px 35px;
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.loginBlock img {
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,46 @@
+.content {
+    display: flex;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+}
+
+.postContent {}
+
+.imageWrapper {
+    display: flex;
+}
+
+.imageWrapper p {
+    padding-left: 10px;
+}
+
+.postImage {
+    margin-top: 5px;
+    width: 100%;
+    height: 350px;
+    background: url("https://i.pinimg.com/originals/6a/8b/50/6a8b50ac0aa0e64f224bcee2f0afbd66.jpg");
+    background-position: bottom;
+}
+
+.message {
+    padding: 10px;
+    margin-top: 0;
+    background: rgb(50, 42, 179);
+    background: linear-gradient(90deg, rgba(50, 42, 179, 1) 0%, rgba(76, 76, 209, 1) 0%, rgba(5, 184, 221, 1) 100%);
+    color: white;
+    font-weight: 500;
+    letter-spacing: .05rem;
+    line-height: 20px;
+}
+
+.onePost {
+    border-bottom: 3px solid rgb(50, 42, 179);
+    margin-bottom: 10px;
+}
+
+.fa-heart {
+    color: red;
+}

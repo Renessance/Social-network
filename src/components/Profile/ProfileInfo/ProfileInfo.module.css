@@ -1,0 +1,32 @@
+.infoPerson {
+    width: 20%;
+    background: rgb(50,42,179);
+    background: linear-gradient(90deg, rgba(50,42,179,1) 0%, rgba(76,76,209,1) 0%, rgba(5,184,221,1) 100%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.imageWrapper img {
+    width: 90px;
+    height: 90px;
+}
+
+.status {
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact {
+    margin-left: 10px;
+}
+
+.editForm div{
+    margin: 10px 0;
+}

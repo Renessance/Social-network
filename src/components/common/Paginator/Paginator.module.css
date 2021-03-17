@@ -1,0 +1,40 @@
+.paginator {
+    display: flex;
+    margin: 20px 0;
+}
+
+.paginator span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.pageNumber {
+    padding: 2px;
+    border: 1px solid grey;
+}
+
+.paginator button {
+    margin: 0 15px;
+    text-decoration: none;
+    background: rgb(50,42,179);
+    background: linear-gradient(90deg, rgba(50,42,179,1) 0%, rgba(76,76,209,1) 0%, rgba(5,184,221,1) 100%);
+    border: 0;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+
+}
+
+.active {
+    color: white;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 50%;
+    background: rgb(50, 42, 179);
+    background: linear-gradient(90deg, rgba(50, 42, 179, 1) 0%, rgba(76, 76, 209, 1) 0%, rgba(5, 184, 221, 1) 100%);
+}

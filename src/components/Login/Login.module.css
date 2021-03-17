@@ -1,0 +1,17 @@
+.error {
+    color: red;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.loginWrapper {
+    width: 200px;
+}
+
+.loginWrapper input {
+    width: 100%;
+}
+
+.loginWrapper input[name="rememberMe"] {
+    width: auto;
+}
